@@ -1,0 +1,17 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tasks Suite" parallel="classes" thread-count="2">
+    <test name="All tests " >
+
+        <classes>
+
+            <class name="herokuappTests.CheckBoxTest"></class>
+            <class name="herokuappTests.UploadTest"></class>
+            <class name="API.APITests"></class>
+            <class name="googleTests.GoogleTests"></class>
+            <class name="w3cschoolsTests.TestTable"></class>
+            <class name="vertex42Tests.DownloadFileTest"></class>
+            <class name="w3cschoolsTests.TestTable"></class>
+        </classes>
+    </test>
+</suite>
